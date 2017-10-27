@@ -22,7 +22,7 @@ dirs.each do |dir|
   directory "Create #{dir}" do
     path "#{dir}"
     action :create
-    not_if { ::Dir.exist("#{dir}") }
+    not_if { ::Dir.exist?("#{dir}") }
   end
 end
 
