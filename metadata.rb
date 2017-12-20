@@ -19,5 +19,6 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/plex_configuration'
 
-#changelog
-#[10/16/2017] - 0.1.1 - Added share configuration. 
+# changelog
+# [10/16/2017] - 0.1.1 - Added share configuration.
+# [12/20/2017] - 0.1.2 - Removed share information for temp transcode directory
