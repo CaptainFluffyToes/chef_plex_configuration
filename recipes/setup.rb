@@ -32,5 +32,5 @@ mount 'Mount Media share for access' do
   fstype 'cifs'
   options 'rw,username=media_user,password=test'
   mount_point '/mnt/Media'
-  action [:mount, :enable]
+  action [:mount]
 end
